@@ -29,7 +29,7 @@ Connect to the Remote SSH Server: Open a terminal or SSH client on your local ma
 
 cmd: ssh username@public_ip_address
 
-Switch to root user – cmd: su – 
+Switch to root user - cmd: su - 
 
 Clone the github repo for the Azure Deployment
 
@@ -40,7 +40,7 @@ cmd: git clone https://github.com/anissayed101/azure-demo-bbi.git
 
 Change Directory to the git repo directory
 
-cmd: cd <github repo directory>
+cmd: cd [github repository directory]
  
 Always remember to checkout the master branch 
 
