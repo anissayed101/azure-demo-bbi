@@ -77,6 +77,8 @@ make install
 ```bash
 make init
 ```
+**Copy/Add the Terraform Vars file given, The terraform vars file should be added the current directory where the github code is cloned**
+
 **Plan Terraform:**
 ```bash
 make plan
