@@ -65,10 +65,10 @@ cd azure-demo-bbi
 git checkout master
 ```
 
-**Installing Terraform via Make Command**
-**Run the following command to install Terraform:**
+**Installing Terraform & Azure CLI via Make Command**
+**Run the following command to install Terraform & Azure CLI:**
 ```bash
-make install_terraform
+make install
 ```
 **Running Terraform Commands**
 **After installing Terraform, you can run the following commands:**
