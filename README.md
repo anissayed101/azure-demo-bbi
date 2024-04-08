@@ -43,7 +43,49 @@ To connect to the remote SSH server:
 
 ## Cloning the GitHub Repository for Azure Deployment
 
-If Git is not present, run:
+**If Git is not present, run:**
 
 ```bash
 sudo yum install -y git make
+```
+
+**Clone the GitHub repository for the Azure Deployment:**
+
+  ```bash
+git clone https://github.com/anissayed101/azure-demo-bbi.git
+```
+
+**Change directory to the git repository directory:**
+```bash
+cd azure-demo-bbi
+```
+
+**Always remember to checkout the master branch:**
+```bash
+git checkout master
+```
+
+**Installing Terraform via Make Command**
+**Run the following command to install Terraform:**
+```bash
+make install_terraform
+```
+**Running Terraform Commands**
+**After installing Terraform, you can run the following commands:**
+
+**Initialize Terraform:**
+```bash
+make init
+```
+**Plan Terraform:**
+```bash
+make plan
+````
+**Deploy Terraform:**
+```bash
+make deploy
+```
+**Destroy Terraform:**
+```bash
+make destroy
+```
